@@ -3,6 +3,11 @@
 declare(strict_types=1);
 
 return [
+    'attributes' => [
+        'name' => 'ユーザー名',
+        'email' => 'メールアドレス',
+        'password' => 'パスワード',
+    ],
     'accepted'             => ':Attributeを承認してください。',
     'accepted_if'          => ':Otherが:valueの場合、:attributeを承認する必要があります。',
     'active_url'           => ':Attributeは、有効なURLではありません。',
